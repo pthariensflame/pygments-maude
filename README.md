@@ -22,7 +22,7 @@ In order to use this with [LaTeX](http://www.latex-project.org) and
 [`minted`](https://github.com/gpoore/minted), put the following lines
 into your document preamble:
 
-``` tex
+``` latex
 \usepackage{xparse}
 \NewExpandableDocumentCommand\maudeLexer{}{pygments_maude.py:MaudeLexer -x}
 \NewExpandableDocumentCommand\maudeLogLexer{}{pygments_maude.py:MaudeLogLexer -x}
