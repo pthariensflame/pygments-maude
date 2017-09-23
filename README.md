@@ -32,4 +32,6 @@ Then place the the file
 [`pygments_maude.py`](https://raw.githubusercontent.com/pthariensflame/pygments-maude/master/pygments_maude.py)
 from this repository into the same directory as your document; you
 should now be able to use `\maudeLexer` and `\maudeLogLexer` as
-languages recognized by all `minted` commands.
+languages recognized by all `minted` commands. (Note that this will
+require a fairly recent version of `minted`, as well as a TeX install
+that supports [LaTeX3](https://www.latex-project.org/latex3/).)
