@@ -9,6 +9,7 @@ class MaudeLexer(RegexLexer):
     name = 'Maude'
     aliases = ['maude']
     filenames = ['*.maude']
+    mimetypes = ['text/x-maude']
 
     tokens = {
         'root': [
@@ -274,6 +275,9 @@ class MaudeLogLexer(RegexLexer):
     name = 'MaudeLog'
     aliases = ['maude-log']
     filenames = ['*.maude-log']
+    alias_filenames = ['*.txt',
+                       '*.log']
+    mimetypes = ['text/plain']
 
     tokens = {
         'root': [
