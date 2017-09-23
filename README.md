@@ -3,11 +3,12 @@
 This [Python](https://www.python.org) module provides
 [Pygments](http://pygments.org) lexers for the
 [Maude](http://maude.cs.illinois.edu/w/index.php?title=The_Maude_System)
-language and its interactive environment.
+language and its interactive environment; this allows Pygments to
+highlight these languages just like any others it supports.
 
 ## Command-Line Usage
 
-In order to use these on the command line, pass the parameter `-l
+In order to use these lexers on the command line, pass the parameter `-l
 /path/to/pygments_maude.py:MaudeLexer -x` (for batch Maude code) or
 `-l /path/to/pygments_maude.py:MaudeLogLexer -x` (for Maude system
 interaction logs) to the `pygmentize` comand in place of a language
@@ -18,7 +19,7 @@ from this repository).
 
 ## LaTeX/`minted` Usage
 
-In order to use this with [LaTeX](http://www.latex-project.org) and
+In order to use these lexers with [LaTeX](http://www.latex-project.org) and
 [`minted`](https://github.com/gpoore/minted), put the following lines
 into your document preamble:
 
