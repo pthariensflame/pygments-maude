@@ -8,11 +8,11 @@ language and its interactive environment.
 ## Command-Line Usage
 
 In order to use these on the command line, pass the parameter `-l
-`*`/path/to/pygments_maude.py`*`:MaudeLexer -x` (for batch Maude code)
-or `-l `*`/path/to/pygments_maude.py`*`:MaudeLogLexer -x` (for Maude
-system interaction logs) to the `pygmentize` comand in place of a
-language flag (where *`/path/to/pygments_maude.py`* should be replaced
-by the actual local path to the file
+/path/to/pygments_maude.py:MaudeLexer -x` (for batch Maude code) or
+`-l /path/to/pygments_maude.py:MaudeLogLexer -x` (for Maude system
+interaction logs) to the `pygmentize` comand in place of a language
+flag (where `/path/to/pygments_maude.py` should be replaced by the
+actual local path to the file
 [`pygments_maude.py`](https://raw.githubusercontent.com/pthariensflame/pygments-maude/master/pygments_maude.py)
 from this repository).
 
